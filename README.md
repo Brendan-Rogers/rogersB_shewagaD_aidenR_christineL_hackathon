@@ -19,9 +19,11 @@ The repo can be downloaded from GitHub, using terminal and the command `https://
 
 3. Install the depandancies, as outlined in _setup_
 
-4. Enter command `gulp` to start compiling SCSS 
+4. Enter command `gulp` to start compiling SCSS
+
+5. If you'd like to test the website's ability to add users to our email list, add an API key to the mailchimp() function in sign-up.php 
  
-5. Run your instance of the website at [localhost:8888/rogersB_shewagaD_aidenR_christineL_hackathon]
+6. Run your instance of the website at [localhost:8888/rogersB_shewagaD_aidenR_christineL_hackathon]
 
 ### Setup
 
