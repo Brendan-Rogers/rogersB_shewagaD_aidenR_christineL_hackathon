@@ -5,6 +5,10 @@ export default {
 			<h1 class="pageTitle">Ontario Summer</h1>
 		</header>
 
+		<router-link :to="{name: 'signup'}">
+		  <button id="btnSignup">Sign Up!</button>
+		</router-link>
+
 			<section class="landingArea">
 				<video src="videos/pureVolume_mobile.mp4" controls></video>
 				<button class="bookNow">Book your trip</button>
