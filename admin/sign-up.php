@@ -66,7 +66,7 @@ function sendEmail($name, $email, $returning) {
 
 
 function mailchimp($firstname, $lastname, $email) {
-	
+
 	// ADD API CODE HERE
 	$authToken = '';
 	$list_id = 'eeddad44e9';
@@ -97,11 +97,4 @@ function mailchimp($firstname, $lastname, $email) {
 
 
 ?>
-
-
-
-
-
-
-
 
