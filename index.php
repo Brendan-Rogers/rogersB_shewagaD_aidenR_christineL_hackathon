@@ -23,6 +23,7 @@
 	<meta http-equiv="content-type" content="text/html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>ONTARIO SUMMER</title>
+	<link rel="stylesheet" href="css/master.css">
   	<script src="https://unpkg.com/vue"></script>
   	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
@@ -32,7 +33,7 @@
 		<div>
 			<router-view/>
 		</div>
-
+    
 	</main>
 
 <script type="module" src="js/main.js"></script>
