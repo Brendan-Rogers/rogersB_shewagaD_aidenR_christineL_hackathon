@@ -23,6 +23,7 @@
 	<meta http-equiv="content-type" content="text/html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>ONTARIO SUMMER</title>
+	<link rel="stylesheet" href="css/master.css">
   	<script src="https://unpkg.com/vue"></script>
   	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
@@ -37,18 +38,18 @@
 		</header>
 
 		<section class="landingArea">
-			<video src="videos/pureVolume_mobile.mp4" controls></video>
+			<video src="videos/pureVolume_mobile.mp4" class="promoVid"></video>
 			<button class="bookNow">Book your trip</button>
 
 			<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
 
-			<img src="images/drake.png" alt="placeholder" class="ontarioImg">
+			<img src="images/drake.png" alt="placeholder" class="ontarioImg hidden">
 			<img src="images/drake.png" alt="placeholder" class="ontarioImg">
 			<img src="images/drake.png" alt="placeholder" class="ontarioImg">
 
-			<h4 class="explore">Explore Ontario</h4>
+			<a class="explore">Explore Ontario</a>
 			
-			<p class="promoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex dolores hic quibusdam fugit libero quaerat tempora ipsum recusandae! Cum voluptates culpa odit hic voluptatibus autem iure natus vel fuga!Ipsum omnis esse quo distinctio laudantium in vel reprehenderit doloribus dicta dolore illo, beatae saepe temporibus quos. Nemo iure quaerat corporis exercitationem, deserunt magnam odio nam ratione quas velit laborum?</p>
+			<p class="promoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex dolores hic quibusdam fugit libero quaerat tempora ipsum recusandae! Cum voluptates culpa odit hic voluptatibus autem iure natus vel fuga! Ipsum omnis esse quo distinctio laudantium in vel reprehenderit doloribus dicta dolore illo, beatae saepe temporibus quos. Nemo iure quaerat corporis exercitationem, deserunt magnam odio nam ratione quas velit laborum?</p>
 		</section>
 
 		<section class="landmarks">

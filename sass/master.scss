@@ -2,6 +2,10 @@
 
 // Start of Index Mobile
 
+.hidden {
+    display: none;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +40,6 @@ header {
 
 .promoVid{
     width: 100%;
-
 }
 
 .bookNow{
@@ -49,11 +52,40 @@ header {
     font-weight: bold;
     cursor: pointer;
 }
+
 .welcomeText{
     font-size: 1.8em;
     text-align: right;
-    margin-right: 5vw;
+    margin-right: 8vw;
     top: -10px;
     position: relative;
     color: $title;
+}
+
+.ontarioImg{
+    width: 45%;
+    margin-left: 2.5%;
+    margin-bottom: 15px;
+}
+
+.explore{
+    color: $title;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 0.8em;
+    cursor: pointer;
+    margin-left: 34.5vw;
+}
+
+.explore:hover{
+    text-decoration: underline;
+}
+
+.promoText{
+    color: $title;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 20px;
 }
