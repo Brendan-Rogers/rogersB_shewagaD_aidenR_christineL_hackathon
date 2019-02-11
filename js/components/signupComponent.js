@@ -268,7 +268,11 @@ export default {
 			</select><br><br>
 
 
-			<input type="submit" name="submit" value="Submit Now!">
+			<input type="submit" name="submit" value="Submit Now">
+
+               <router-link :to="{name: 'home'}">
+                 <button id="myButton" class="foo bar">Return Home</button>
+               </router-link>
 
     		</form>
         </div>
