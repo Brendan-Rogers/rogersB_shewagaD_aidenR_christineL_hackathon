@@ -38,3 +38,22 @@ header {
     width: 100%;
 
 }
+
+.bookNow{
+    background-color: $yellow;
+    border: none;
+    position: relative;
+    top: -29px;
+    padding: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+.welcomeText{
+    font-size: 1.8em;
+    text-align: right;
+    margin-right: 5vw;
+    top: -10px;
+    position: relative;
+    color: $title;
+}
