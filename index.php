@@ -31,7 +31,9 @@
 
 		<header>
 			<h1 class="pageTitle">Ontario Summer</h1>
+
 			<router-view/>
+
 		</header>
 
 		<section class="landingArea">
