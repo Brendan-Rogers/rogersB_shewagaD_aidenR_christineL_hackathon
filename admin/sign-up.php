@@ -48,9 +48,17 @@ function signUp($firstname, $lastname, $email, $country) {
 
 function sendEmail($name, $email, $returning) {
 	if($returning) {
-		return 'We have sent the RETURNING email.';
+		// WE will send them a custom email, for having left and then returned to our list
+		$subject = 'Resubscribed to the Ontario Summer Email List';
+		$message = "Welcome back to the Ontario Summer! We're glad to have you back in the loop.";
+		$headers = 'From: no-reply@ontariosummers.com';
+
+		mail($email, $subject, $message, $headers);
+
+		return 'Welcome Back to the Ontario Summer!';
 	} else {
-		return 'We have sent the NEW USER email';
+		// MAILCHIMP will send them a welcome email.
+		return 'Welcome to the Ontario Summer!';
 	}
 }
 
@@ -58,7 +66,9 @@ function sendEmail($name, $email, $returning) {
 
 
 function mailchimp($firstname, $lastname, $email) {
-	$authToken = 'f944a226463b32b5cd866e55fac89956-us20';
+	
+	// ADD API CODE HERE
+	$authToken = '';
 	$list_id = 'eeddad44e9';
  	// The data to send to the API
 	$postData = array(
