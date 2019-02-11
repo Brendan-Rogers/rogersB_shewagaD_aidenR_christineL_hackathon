@@ -50,18 +50,22 @@
 		</section>
 
 		<section class="landmarks">
+			
+			<div class="landmark">
+				<img src="images/drake.png" alt="placeholder" class="landmarkImg">
+				<h3 class="landmarkTitle">Niagra Falls</h3>
+				<h4 class="landmarkSub">Natural Wonder of the World</h4>
+				<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
+				<a class="explore">Explore Ontario</a>
+			</div>
 
-			<img src="images/drake.png" alt="placeholder" class="landmarkImg">
-			<h3 class="landmarkTitle">Niagra Falls</h3>
-			<h4 class="landmarkSub">Natural Wonder of the World</h4>
-			<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-			<a class="explore">Explore Ontario</a>
-
-			<img src="images/drake.png" alt="placeholder" class="landmarkImg">
-			<h3 class="landmarkTitle">Niagra Falls</h3>
-			<h4 class="landmarkSub">Natural Wonder of the World</h4>
-			<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-			<a class="explore">Explore Ontario</a>
+			<div class="landmark">
+				<img src="images/drake.png" alt="placeholder" class="landmarkImg">
+				<h3 class="landmarkTitle">Niagra Falls</h3>
+				<h4 class="landmarkSub">Natural Wonder of the World</h4>
+				<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
+				<a class="explore">Explore Ontario</a>
+			</div>
 
 		</section>
 
