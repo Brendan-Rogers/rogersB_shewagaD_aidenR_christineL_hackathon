@@ -1,0 +1,30 @@
+{
+  "name": "rogersb_shewagad_aidenr_christinel_hackathon",
+  "version": "1.0.0",
+  "description": "ontario tourism by team505",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brendan-Rogers/rogersB_shewagaD_aidenR_christineL_hackathon.git"
+  },
+  "keywords": [
+    "tourism",
+    "ontario",
+    "team505"
+  ],
+  "author": "brendan rogers",
+  "license": "ISC",
+  "devDependancies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2"
+  }
+}
