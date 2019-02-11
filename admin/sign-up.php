@@ -13,11 +13,16 @@ function signUp($firstname, $lastname, $email, $country) {
 	// do something special if the users email already exists in the system
 	if($check_email_set->fetchColumn() > 0) {
 
-		// update the users last update column
-		$update_last_query = 'UPDATE tbl_users SET last_update = current_timestamp WHERE email = :email';
+		// update the users info
+		$update_last_query = 'UPDATE tbl_users SET last_update = current_timestamp, firstname = :firstname, lastname = :lastname, country = :country WHERE email = :email';
 		$update_last_set = $pdo->prepare($update_last_query);
 		$update_last_set->execute(
-			array( ':email'=>$email )
+			array( 
+				'firstname'=>$firstname,
+				':lastname'=>$lastname,
+				':email'=>$email,
+				':country'=>$country
+			)
 		);
 		return sendEmail($firstname, $email, true);
 	} else {
