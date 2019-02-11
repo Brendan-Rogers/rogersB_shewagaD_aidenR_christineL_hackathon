@@ -67,7 +67,7 @@ function sendEmail($name, $email, $returning) {
 
 function mailchimp($firstname, $lastname, $email) {
 
-	// ADD API CODE HERE
+	// ADD MAILCHIMP API CODE HERE (you'll need to find your own, they'll axe the access if they find it publicly online)
 	$authToken = '';
 	$list_id = 'eeddad44e9';
  	// The data to send to the API
