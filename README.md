@@ -5,19 +5,17 @@
 
 ### Introduction
 
+Our Ontario Tourism pitch, developed as our 'Hackathon' midterm project, for Fanshawe IDP.
 
 ### Installation
 
 The repo can be downloaded from GitHub, using terminal and the command `https://github.com/Brendan-Rogers/rogersB_shewagaD_aidenR_christineL_hackathon.git`
 
-### Dependancies
-
-
 ### Installation // Testing
 
-1. With your GIT Command Line, navigate to your server emulator's root directory (I prefer to use MAMP)
+1. With your GIT CLI, navigate to your server emulator's root directory (we prefer MAMP)
 
-2. Enter command `git clone rogersB_shewagaD_aidenR_christineL_hackathon` to paste our repo
+2. Enter command `git clone rogersB_shewagaD_aidenR_christineL_hackathon` to download our repo
 
 3. Install the depandancies, as outlined in _setup_
 
@@ -27,11 +25,19 @@ The repo can be downloaded from GitHub, using terminal and the command `https://
 
 ### Setup
 
-Before proper testing can be done, it's important to install the dependancies.
+In order to test, you must install the dependancies.
 
 1. Access root directory with npm-enabled command line of your choosing.
 
 2. Install all dependancies using `npm install`
+
+### Dependancies
+
+1. Gulp
+
+2. Gulp-Sass
+
+3. Gulp-Concat
 
 
 
