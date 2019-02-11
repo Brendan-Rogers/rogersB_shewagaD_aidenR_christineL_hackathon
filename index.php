@@ -35,10 +35,10 @@
 		</header>
 
 		<section class="landingArea">
-			<video src="videos/pureVolume_desktop.mp4" controls></video>
+			<video src="videos/pureVolume_mobile.mp4" controls></video>
 			<button class="bookNow">Book your trip</button>
 
-			<h2 class="welcomeText">Welcome to the Ontario Summer...</h2>
+			<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
 
 			<img src="images/drake.png" alt="placeholder" class="ontarioImg">
 			<img src="images/drake.png" alt="placeholder" class="ontarioImg">
