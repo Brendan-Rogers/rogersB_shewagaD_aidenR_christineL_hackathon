@@ -8,7 +8,4 @@ function redirect_to($location) {
 	}
 }
 
-
-
-
 ?>

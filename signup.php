@@ -41,7 +41,7 @@
 		<input type="text" name="email" value=""><br><br>
 
 		<label for="country">Country</label>      
-        <select id="country" name="country" class="form-control">
+                <select id="country" name="country" class="form-control">
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Åland Islands">Åland Islands</option>
                 <option value="Albania">Albania</option>
