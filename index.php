@@ -30,10 +30,9 @@
 <body>
 	<main class="container" id="app">
 
-		<header>
-			<h1 class="pageTitle">Ontario Summer</h1>
-
+		<div>
 			<router-view/>
+
 
 		</header>
 
@@ -100,6 +99,8 @@
 
 		</section>
 
+		</div>
+    
 	</main>
 
 <script type="module" src="js/main.js"></script>
