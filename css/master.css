@@ -1,20 +1,62 @@
+.signupTemplate {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../images/landBkg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.signText {
+  text-align: center;
+}
+
+form {
+  background-color: white;
+  color: black;
+  padding: 3em;
+  border-radius: 2.5em;
+  text-align: center;
+  margin: 1em;
+  height: 27em;
+}
+
+input, .form-control {
+  padding: 0.5em;
+  border-radius: 2.5em;
+  background-color: #efefef;
+  width: 80%;
+  border-style: none;
+  margin-bottom: 2em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.redButton {
+  background: #ea6060;
+  color: white;
+}
+
 .hidden {
-  display: none; }
+  display: none;
+}
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .container {
   width: 100%;
-  background-color: #141414; }
+  background-color: #141414;
+}
 
 header {
   width: 100%;
   height: 65px;
   background-color: #141414;
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+}
 
 .pageTitle {
   margin: 0;
@@ -23,13 +65,16 @@ header {
   font-size: 1.2em;
   color: #ffffff;
   align-self: center;
-  margin-right: 10vw; }
+  margin-right: 10vw;
+}
 
 .landingArea {
-  width: 100%; }
+  width: 100%;
+}
 
 .promoVid {
-  width: 100%; }
+  width: 100%;
+}
 
 .bookNow {
   background-color: #ffd200;
@@ -39,7 +84,8 @@ header {
   padding: 5px;
   font-size: 0.8em;
   font-weight: bold;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .welcomeText {
   font-size: 1.8em;
@@ -47,12 +93,14 @@ header {
   margin-right: 8vw;
   top: -10px;
   position: relative;
-  color: #989897; }
+  color: #989897;
+}
 
 .ontarioImg {
   width: 45%;
   margin-left: 2.5%;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .explore {
   color: #989897;
@@ -60,10 +108,12 @@ header {
   text-align: center;
   font-size: 0.8em;
   cursor: pointer;
-  margin-left: 34.5vw; }
+  margin-left: 34.5vw;
+}
 
 .explore:hover {
-  text-decoration: underline; }
+  text-decoration: underline;
+}
 
 .promoText {
   color: #989897;
@@ -71,6 +121,7 @@ header {
   line-height: 1.5em;
   width: 80%;
   margin-left: 10%;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 /*# sourceMappingURL=master.css.map */

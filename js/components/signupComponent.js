@@ -1,7 +1,7 @@
 export default {
     template: `
     <div class="signupTemplate">
-        <h2>Enter your information below:</h2>
+       
 
     	<?php
     		// if there's a message, echo it
@@ -9,17 +9,17 @@ export default {
     	?>
 
     	<form method="post">
+        <h2 class="signText">Sign Up:</h2>
+    	
+    		<input type="text" name="first-name" value="First Name" required><br><br>
 
-    		<label>First Name:</label>
-    		<input type="text" name="first-name" value="" required><br><br>
+    	
+    		<input type="text" name="last-name" value="Last Name" required><br><br>
 
-    		<label>Last Name:</label>
-    		<input type="text" name="last-name" value="" required><br><br>
+    	
+    		<input type="text" name="email" value="email"><br><br>
 
-    		<label>Email:</label>
-    		<input type="text" name="email" value=""><br><br>
-
-    		<label for="country">Country</label>      
+    		<label for="country"></label>      
                <select id="country" name="country" class="form-control">
                <option value="Afghanistan">Afghanistan</option>
                <option value="Åland Islands">Åland Islands</option>
@@ -268,7 +268,7 @@ export default {
 			</select><br><br>
 
 
-			<input type="submit" name="submit" value="Submit Now!">
+			<input type="submit" name="submit" value="Submit" class="redButton">
 
     		</form>
         </div>
