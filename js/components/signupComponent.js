@@ -11,15 +11,12 @@ export default {
     	<form method="post">
         <h2 class="signText">Sign Up:</h2>
     	
-    		<input type="text" name="first-name" value="First Name" required><br><br>
+    		<input type="text" name="first-name" placeholder="First Name" required><br><br>
 
-    	
-    		<input type="text" name="last-name" value="Last Name" required><br><br>
+    		<input type="text" name="last-name" placeholder="Last Name" required><br><br>
 
-    	
-    		<input type="text" name="email" value="email"><br><br>
+    		<input type="text" name="email" placeholder="" required><br><br>
 
-    		<label for="country"></label>      
                <select id="country" name="country" class="form-control">
                <option value="Afghanistan">Afghanistan</option>
                <option value="Åland Islands">Åland Islands</option>
