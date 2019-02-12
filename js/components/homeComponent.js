@@ -8,6 +8,10 @@ export default {
 				<video src="videos/mainCoup.mp4" class="promoVid"></video>
 				<router-link :to="{name: 'signup'}"><button class="bookNow">Book your trip</button></router-link>
 
+				<div class="playBut">
+					<img src="images/play.svg" alt="Play Button">
+				</div>
+
 				<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
 				
 				<div class="imgWrap">
