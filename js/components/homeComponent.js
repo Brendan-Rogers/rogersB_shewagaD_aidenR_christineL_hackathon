@@ -1,9 +1,7 @@
 export default {
     template: `
     <div>
-	    <header>
-			<h1 class="pageTitle">Ontario Summer</h1>
-		</header>
+	
 
 
 			<section class="landingArea">

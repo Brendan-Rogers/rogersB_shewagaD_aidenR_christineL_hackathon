@@ -1,7 +1,9 @@
 export default {
     template: `
-    <div class="signupTemplate">
+
        
+    <div class="signupTemplate">
+
 
     	<?php
     		// if there's a message, echo it
@@ -9,7 +11,7 @@ export default {
     	?>
 
     	<form method="post">
-        <h2 class="signText">Sign Up:</h2>
+        <h2 class="signText">Sign Up</h2>
     	
     		<input type="text" name="first-name" placeholder="First Name" required><br><br>
 
@@ -267,7 +269,7 @@ export default {
 			<input type="submit" name="submit" value="Submit" class="redButton">
 
                <router-link :to="{name: 'home'}">
-                 <button id="btn_return" class="foo bar">Return Home</button>
+                 <button id="btn_return" class="foo bar redButton">Return Home</button>
                </router-link>
 
     		</form>

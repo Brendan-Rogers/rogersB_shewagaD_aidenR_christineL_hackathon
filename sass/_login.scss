@@ -6,10 +6,7 @@
      background-size:cover;
      background-attachment: fixed;
  }
- .signText{
-     text-align: center;
- 
- }
+
  
  form{
    
@@ -20,14 +17,16 @@
       text-align:center;
       margin:1em;
       height:27em;
+      align-self: center;
+       justify-self: center;
     
  }
  
- input , .form-control{
+ input , .form-control, .redButton{
      padding:.5em;
      border-radius:2.5em;
      background-color:#efefef;
-     width:80%;
+     width:95%;
      border-style:none;
      margin-bottom:2em;
      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
@@ -40,6 +39,3 @@
   
  }
  
- @media screen and (min-width:1000px){
- 
- }
