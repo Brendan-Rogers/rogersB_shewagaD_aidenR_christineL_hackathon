@@ -55,7 +55,7 @@ header {
     background-color: $yellow;
     border: none;
     position: relative;
-    top: -29px;
+    top: -34px;
     padding: 5px;
     font-size: 0.8em;
     font-weight: bold;
@@ -213,7 +213,7 @@ header {
 
     .promoVid{
         width: 96%;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     .bookNow{
@@ -257,7 +257,7 @@ header {
         margin-bottom: 0;
         margin-top: -150px;
         position: relative;
-        top: -80px;
+        top: -100px;
     }
 
     .explore{
@@ -270,4 +270,79 @@ header {
     .flex{
         display: block;
     }
+
+    .landmark{
+        display: flex;
+    }
+
+    .landmark2{
+        flex-direction: row-reverse;
+    }
+
+    .landmarkImg{
+        width: auto;
+        height: 550px;
+        margin-left: 10%;
+        position: relative;
+        -webkit-box-shadow: 5px -5px 19px -4px rgba(0,0,0,0.38);
+        -moz-box-shadow: 5px -5px 19px -4px rgba(0,0,0,0.38);
+        box-shadow: 5px -5px 19px -4px rgba(0,0,0,0.38);
+    }
+
+    .landmarkImg1{
+        top: -50px;
+        margin-left: 10%;
+    }
+
+    .landmarkTitle{
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    .landmarkSub{
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 0;
+    }
+
+    .landmarkText{
+        text-align: left;
+        margin-left: 12%;
+        width: 60%;
+        line-height: 2em;
+    }
+
+    .contWrap{
+        margin-left: 5%;
+    }
+
+    .explore2{
+        color: $body;
+    }
+
+    .landmarkImg2{
+        top: 50px;
+        margin-right: 10%;        
+    }
+
+    .experience{
+        margin-top: 75px;
+        margin-bottom: 0;
+    }
+
+    .expTitle{
+        margin: 0;
+    }
+
+    .lakes{
+        margin-top: -8px;
+        margin-bottom: 30px;
+    }
+
+    .expFlex{
+        display: flex;
+        margin-bottom: 10px;
+    }
+
 }
