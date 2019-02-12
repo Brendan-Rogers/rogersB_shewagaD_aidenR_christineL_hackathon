@@ -218,18 +218,49 @@ header {
         margin-left: 4%;
     }
 
+    .landingArea{
+        display: flex;
+        flex-direction: column;
+    }
+
     .ontarioImg{
         display: block;
-        width: 15%;
+        width: 13%;
         float: right;
+        margin-left: 1.5%;
+        margin-bottom: 10px;
+        margin-right: 2%;
+        position: relative;
+        top: -20vw;
     }
 
     .welcomeText{
-        // font-size: 1.8em;
-        // text-align: right;
-        // top: -10px;
-        // position: relative;
-        // width: 40%;
-        // float: left;
+        font-size: 2.6em;
+        text-align: right;
+        top: 10px;
+        width: 33vw;
+        margin-left: 6%;
+    }
+
+    .promoText{
+        font-size: 1em;
+        line-height: 1.6em;
+        width: 40%;
+        margin-left: 50%;
+        margin-bottom: 0;
+        margin-top: -150px;
+        position: relative;
+        top: -80px;
+    }
+
+    .explore{
+        color: $yellow;
+        text-align: left;
+        font-size: .9em;
+        margin-left: 50%;
+    }
+
+    .flex{
+        display: block;
     }
 }
