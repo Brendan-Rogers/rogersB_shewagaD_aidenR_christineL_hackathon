@@ -9,16 +9,18 @@ export default {
 				<router-link :to="{name: 'signup'}"><button class="bookNow">Book your trip</button></router-link>
 
 				<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
-
-				<img src="images/drake.png" alt="placeholder" class="ontarioImg">
-				<img src="images/drake.png" alt="placeholder" class="ontarioImg">
-				<img src="images/drake.png" alt="placeholder" class="ontarioImg hidden">
+				
+				<div class="imgWrap">
+					<img src="images/drake.png" alt="placeholder" class="ontarioImg">
+					<img src="images/drake.png" alt="placeholder" class="ontarioImg">
+					<img src="images/drake.png" alt="placeholder" class="ontarioImg hidden">
+				</div>
 
 				<div class="flex">
 					<h4 class="explore">Explore Ontario</h4>
 				</div>
 
-				<p class="promoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex dolores hic quibusdam fugit libero quaerat tempora ipsum recusandae! Cum voluptates culpa odit hic voluptatibus autem iure natus vel fuga!Ipsum omnis esse quo distinctio laudantium in vel reprehenderit doloribus dicta dolore illo, beatae saepe temporibus quos. Nemo iure quaerat corporis exercitationem, deserunt magnam odio nam ratione quas velit laborum?</p>
+				<p class="promoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex dolores hic quibusdam fugit libero quaerat tempora ipsum recusandae! Cum voluptates culpa odit hic voluptatibus autem iure natus vel fuga!Ipsum omnis esse quo distinctio laudantium in vel reprehenderit doloribus dicta dolore illo, beatae.</p>
 			</section>
 
 			<section class="landmarks">
