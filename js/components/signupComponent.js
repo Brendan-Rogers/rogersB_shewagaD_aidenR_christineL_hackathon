@@ -267,8 +267,11 @@ export default {
                <option value="Zimbabwe">Zimbabwe</option>
 			</select><br><br>
 
-
 			<input type="submit" name="submit" value="Submit" class="redButton">
+
+               <router-link :to="{name: 'home'}">
+                 <button id="btn_return" class="foo bar">Return Home</button>
+               </router-link>
 
     		</form>
         </div>
