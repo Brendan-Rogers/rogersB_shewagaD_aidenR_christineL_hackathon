@@ -199,6 +199,14 @@ header {
     justify-content: center;
 }
 
+.playBut{
+    width: 10%;
+    cursor: pointer;
+    position: absolute;
+    right: 45%;
+    top: 100px;
+}
+
 @include desktop{
     header {
         flex-direction: column;
@@ -343,6 +351,11 @@ header {
     .expFlex{
         display: flex;
         margin-bottom: 10px;
+    }
+
+    .playBut{
+        right: 45%;
+        top: 300px;
     }
 
 }
