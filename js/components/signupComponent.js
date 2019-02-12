@@ -1,7 +1,7 @@
 export default {
     template: `
     <div class="signupTemplate">
-        <h2>Enter your information below:</h2>
+       
 
     	<?php
     		// if there's a message, echo it
@@ -9,17 +9,14 @@ export default {
     	?>
 
     	<form method="post">
+        <h2 class="signText">Sign Up:</h2>
+    	
+    		<input type="text" name="first-name" placeholder="First Name" required><br><br>
 
-    		<label>First Name:</label>
-    		<input type="text" name="first-name" value="" required><br><br>
+    		<input type="text" name="last-name" placeholder="Last Name" required><br><br>
 
-    		<label>Last Name:</label>
-    		<input type="text" name="last-name" value="" required><br><br>
+    		<input type="text" name="email" placeholder="" required><br><br>
 
-    		<label>Email:</label>
-    		<input type="text" name="email" value=""><br><br>
-
-    		<label for="country">Country</label>      
                <select id="country" name="country" class="form-control">
                <option value="Afghanistan">Afghanistan</option>
                <option value="Åland Islands">Åland Islands</option>
@@ -267,11 +264,10 @@ export default {
                <option value="Zimbabwe">Zimbabwe</option>
 			</select><br><br>
 
-
-			<input type="submit" name="submit" value="Submit Now">
+			<input type="submit" name="submit" value="Submit" class="redButton">
 
                <router-link :to="{name: 'home'}">
-                 <button id="myButton" class="foo bar">Return Home</button>
+                 <button id="btn_return" class="foo bar">Return Home</button>
                </router-link>
 
     		</form>
