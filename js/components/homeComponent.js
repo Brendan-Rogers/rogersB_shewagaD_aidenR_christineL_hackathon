@@ -25,50 +25,53 @@ export default {
 
 			<section class="landmarks">
 				
-				<div class="landmark">
-					<img src="images/main_1.png" alt="placeholder" class="landmarkImg">
-					<h3 class="landmarkTitle">Niagara Falls</h3>
-					<h4 class="landmarkSub">Natural Wonder of the World</h4>
-					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-					<div class="flex"><a class="explore">Explore Ontario</a></div>
+				<div class="landmark landmark1">
+					<img src="images/main_1.png" alt="placeholder" class="landmarkImg landmarkImg1">
+					<div class="contWrap">
+						<h3 class="landmarkTitle">Niagara Falls</h3>
+						<h4 class="landmarkSub">Natural Wonder of the World</h4>
+						<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
+						<div class="flex"><a class="explore explore2">Explore Ontario</a></div>
+					</div>
 				</div>
 
-				<div class="landmark">
-					<img src="images/main_2.png" alt="placeholder" class="landmarkImg">
-					<h3 class="landmarkTitle">Niagara Falls</h3>
-					<h4 class="landmarkSub">Natural Wonder of the World</h4>
-					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-					<div class="flex"><a class="explore">Explore Ontario</a></div>
+				<div class="landmark landmark2">
+					<img src="images/main_2.png" alt="placeholder" class="landmarkImg landmarkImg2">
+					<div class="contWrap">
+						<h3 class="landmarkTitle">Niagara Falls</h3>
+						<h4 class="landmarkSub">Natural Wonder of the World</h4>
+						<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
+						<div class="flex"><a class="explore explore2">Explore Ontario</a></div>
+					</div>
 				</div>
-
 			</section>
 
 			<section class="experience">
 
 				<h3 class="expTitle">Experience</h3>
 				<h4 class="lakes">The Great Lakes</h4>
+				<div class="expFlex">
+					<div class="activity">
+						<img src="images/experience_1.png" alt="placeholder" class="activityImg">
+						<h3 class="activityTitle">Water Skiing</h3>
+						<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
+						<a class="readMore">Read More</a>
+					</div>
 
-				<div class="activity">
-					<img src="images/experience_1.png" alt="placeholder" class="activityImg">
-					<h3 class="activityTitle">Water Skiing</h3>
-					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
-					<a class="readMore">Read More</a>
+					<div class="activity">
+						<img src="images/experience_2.png" alt="placeholder" class="activityImg">
+						<h3 class="activityTitle">Water Skiing</h3>
+						<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
+						<a class="readMore">Read More</a>
+					</div>
+
+					<div class="activity">
+						<img src="images/experience_3.png" alt="placeholder" class="activityImg">
+						<h3 class="activityTitle">Water Skiing</h3>
+						<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
+						<a class="readMore">Read More</a>
+					</div>
 				</div>
-
-				<div class="activity">
-					<img src="images/experience_2.png" alt="placeholder" class="activityImg">
-					<h3 class="activityTitle">Water Skiing</h3>
-					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
-					<a class="readMore">Read More</a>
-				</div>
-
-				<div class="activity">
-					<img src="images/experience_3.png" alt="placeholder" class="activityImg">
-					<h3 class="activityTitle">Water Skiing</h3>
-					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
-					<a class="readMore">Read More</a>
-				</div>
-
 			</section>
 		</div>
     `

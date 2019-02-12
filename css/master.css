@@ -1,12 +1,10 @@
 /* CSS Document */
 @font-face {
-  font-family: "Manrope-Bold";
-  src: url("../fonts/manrope-bold.otf") format("opentype");
-}
+  font-family: 'Manrope-Bold';
+  src: url("../fonts/manrope-bold.otf") format("opentype"); }
 @font-face {
-  font-family: "Manrope";
-  src: url("../fonts/manrope-regular.otf") format("opentype");
-}
+  font-family: 'Manrope';
+  src: url("../fonts/manrope-regular.otf") format("opentype"); }
 .signupTemplate {
   display: grid;
   justify-content: center;
@@ -14,8 +12,7 @@
   background-image: url(../images/landBkg.png);
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
-}
+  position: relative; }
 
 form {
   background-color: white;
@@ -27,23 +24,20 @@ form {
   height: 30em;
   align-self: center;
   justify-self: center;
-  position: absolute;
-}
+  position: absolute; }
 
 input, .form-control, .redButton {
-  padding: 0.5em;
+  padding: .5em;
   border-radius: 2.5em;
   background-color: #efefef;
   width: 95%;
   border-style: none;
   margin-bottom: 2em;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
 .redButton {
   background: #ea6060;
-  color: white;
-}
+  color: white; }
 
 header {
   width: 100%;
@@ -52,64 +46,52 @@ header {
   display: flex;
   flex-direction: row-reverse;
   position: fixed;
-  z-index: 2000;
-}
+  z-index: 2000; }
 
 .logo {
-  height: 3em;
-}
+  height: 3em; }
 
 .footer {
   background: #000000;
   display: grid;
-  padding: 2em;
-}
+  padding: 2em; }
 
 .footer ul {
   float: right;
   text-align: right;
-  color: white;
-}
+  color: white; }
 
 .footer ul li {
-  list-style-type: none;
-}
+  list-style-type: none; }
 
 .footer ul li a {
   color: #e5e4e4;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .socialIcon {
   width: 3em;
   height: 3em;
   float: left;
-  filter: grayscale(100%);
-}
+  filter: grayscale(100%); }
 
 .socialIcon:hover {
-  filter: none;
-}
+  filter: none; }
 
 .socialMedia {
   align-self: center;
   justify-self: center;
-  margin-bottom: 2em;
-}
+  margin-bottom: 2em; }
 
 .hidden {
-  display: none;
-}
+  display: none; }
 
 body {
   margin: 0;
-  font-family: Manrope, sans-serif;
-}
+  font-family: Manrope, sans-serif; }
 
 .container {
   width: 100%;
-  background-color: #141414;
-}
+  background-color: #141414; }
 
 header {
   width: 100%;
@@ -117,8 +99,7 @@ header {
   background-color: #141414;
   display: flex;
   flex-direction: row-reverse;
-  font-family: Manrope-Bold, sans-serif;
-}
+  font-family: Manrope-Bold, sans-serif; }
 
 .pageTitle {
   margin: 0;
@@ -127,27 +108,23 @@ header {
   color: #ffffff;
   align-self: center;
   margin-right: 10vw;
-  font-family: Manrope-Bold, sans-serif;
-}
+  font-family: Manrope-Bold, sans-serif; }
 
 .landingArea {
-  width: 100%;
-}
+  width: 100%; }
 
 .promoVid {
-  width: 100%;
-}
+  width: 100%; }
 
 .bookNow {
   background-color: #ffd200;
   border: none;
   position: relative;
-  top: -29px;
+  top: -34px;
   padding: 5px;
   font-size: 0.8em;
   font-weight: bold;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .welcomeText {
   font-size: 1.8em;
@@ -157,26 +134,22 @@ header {
   color: #989897;
   width: 80%;
   margin-left: 10%;
-  font-family: Manrope-Bold, sans-serif;
-}
+  font-family: Manrope-Bold, sans-serif; }
 
 .ontarioImg {
   width: 45%;
   margin-left: 2.5%;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 .explore {
   color: #989897;
   font-weight: lighter;
   text-align: center;
   font-size: 0.8em;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .explore:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .promoText {
   color: #989897;
@@ -184,59 +157,50 @@ header {
   line-height: 1.5em;
   width: 80%;
   margin-left: 10%;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .landmarks {
   width: 100%;
   background-color: #e5e4e4;
-  padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
 
 .landmark {
   width: 100%;
-  margin-top: 30px;
-}
+  margin-top: 30px; }
 
 .landmarkImg {
-  width: 100%;
-}
+  width: 100%; }
 
 .landmarkTitle {
   font-size: 2.5em;
   color: #989897;
   text-align: center;
   margin: 0;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .landmarkSub {
   font-size: 1em;
   color: #989897;
   font-weight: lighter;
   text-align: center;
-  margin-top: 5px;
-}
+  margin-top: 5px; }
 
 .landmarkText {
   width: 80%;
   margin-left: 10%;
   line-height: 1.5em;
-  font-size: 0.85em;
-}
+  font-size: 0.85em; }
 
 .experience {
   margin-top: 15px;
-  width: 100%;
-}
+  width: 100%; }
 
 .expTitle {
   font-size: 2.5em;
   color: #989897;
   text-align: center;
   margin: 0;
-  margin-top: 25px;
-}
+  margin-top: 25px; }
 
 .lakes {
   font-size: 1.5em;
@@ -244,62 +208,51 @@ header {
   text-align: center;
   font-weight: lighter;
   margin-top: 6px;
-  margin-bottom: 15px;
-}
+  margin-bottom: 15px; }
 
 .activity {
-  padding-bottom: 25px;
-}
+  padding-bottom: 25px; }
 
 .activityImg {
   width: 80%;
-  margin-left: 10%;
-}
+  margin-left: 10%; }
 
 .activityTitle {
   margin-left: 10%;
-  color: #989897;
-}
+  color: #989897; }
 
 .activityDesc {
   margin-left: 10%;
   color: #989897;
-  line-height: 1.5em;
-}
+  line-height: 1.5em; }
 
 .readMore {
   margin-left: 10%;
   color: #989897;
   line-height: 1.5em;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .readMore:hover {
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 .flex {
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
 
 @media screen and (min-width: 800px) {
   header {
     flex-direction: column;
-    justify-content: center;
-  }
+    justify-content: center; }
 
   .pageTitle {
     text-align: center;
     margin-right: 0;
-    font-size: 1.75em;
-  }
+    font-size: 1.75em; }
 
   .promoVid {
     width: 96%;
-    margin-left: 2%;
-  }
+    margin-left: 4%; }
 
   .bookNow {
     margin-left: 4%;
@@ -307,13 +260,11 @@ header {
     padding-left: 1.8em;
     padding-right: 1.8em;
     padding-top: 0.3em;
-    padding-bottom: 0.3em;
-  }
+    padding-bottom: 0.3em; }
 
   .landingArea {
     display: flex;
-    flex-direction: column;
-  }
+    flex-direction: column; }
 
   .ontarioImg {
     display: block;
@@ -323,16 +274,14 @@ header {
     margin-bottom: 10px;
     margin-right: 2%;
     position: relative;
-    top: -20vw;
-  }
+    top: -20vw; }
 
   .welcomeText {
     font-size: 2.6em;
     text-align: right;
     top: 10px;
     width: 33vw;
-    margin-left: 6%;
-  }
+    margin-left: 6%; }
 
   .promoText {
     font-size: 1em;
@@ -342,19 +291,75 @@ header {
     margin-bottom: 0;
     margin-top: -150px;
     position: relative;
-    top: -80px;
-  }
+    top: -100px; }
 
   .explore {
     color: #ffd200;
     text-align: left;
-    font-size: 0.9em;
-    margin-left: 50%;
-  }
+    font-size: .9em;
+    margin-left: 50%; }
 
   .flex {
-    display: block;
-  }
-}
+    display: block; }
+
+  .landmark {
+    display: flex; }
+
+  .landmark2 {
+    flex-direction: row-reverse; }
+
+  .landmarkImg {
+    width: auto;
+    height: 550px;
+    margin-left: 10%;
+    position: relative;
+    -webkit-box-shadow: 5px -5px 19px -4px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 5px -5px 19px -4px rgba(0, 0, 0, 0.38);
+    box-shadow: 5px -5px 19px -4px rgba(0, 0, 0, 0.38); }
+
+  .landmarkImg1 {
+    top: -50px;
+    margin-left: 10%; }
+
+  .landmarkTitle {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px; }
+
+  .landmarkSub {
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 0; }
+
+  .landmarkText {
+    text-align: left;
+    margin-left: 12%;
+    width: 60%;
+    line-height: 2em; }
+
+  .contWrap {
+    margin-left: 5%; }
+
+  .explore2 {
+    color: #171717; }
+
+  .landmarkImg2 {
+    top: 50px;
+    margin-right: 10%; }
+
+  .experience {
+    margin-top: 75px;
+    margin-bottom: 0; }
+
+  .expTitle {
+    margin: 0; }
+
+  .lakes {
+    margin-top: -8px;
+    margin-bottom: 30px; }
+
+  .expFlex {
+    display: flex;
+    margin-bottom: 10px; } }
 
 /*# sourceMappingURL=master.css.map */
