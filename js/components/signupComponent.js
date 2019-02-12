@@ -15,7 +15,7 @@ export default {
 
     		<input type="text" name="last-name" placeholder="Last Name" required><br><br>
 
-    		<input type="text" name="email" placeholder="" required><br><br>
+    		<input type="text" name="email" placeholder="Email" required><br><br>
 
                <select id="country" name="country" class="form-control">
                <option value="Afghanistan">Afghanistan</option>
