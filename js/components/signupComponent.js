@@ -9,7 +9,7 @@ export default {
     		// if there's a message, echo it
     		if(!empty($message)){echo $message;} 
     	?>
-
+       
     	<form method="post">
         <h2 class="signText">Sign Up</h2>
     	

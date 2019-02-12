@@ -5,5 +5,12 @@ header {
     display: flex;
     flex-direction: row-reverse;
     position:fixed;
+    z-index:2000;
 }
+
+
+.logo{
+    height:3em;
+}
+
 

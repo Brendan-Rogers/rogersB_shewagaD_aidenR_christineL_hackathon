@@ -5,6 +5,7 @@
      background-image:url(../images/landBkg.png);
      background-size:cover;
      background-attachment: fixed;
+     position:relative;
  }
 
  
@@ -16,9 +17,10 @@
      border-radius:2.5em;
       text-align:center;
       margin:1em;
-      height:27em;
+      height:30em;
       align-self: center;
        justify-self: center;
+       position: absolute;
     
  }
  
