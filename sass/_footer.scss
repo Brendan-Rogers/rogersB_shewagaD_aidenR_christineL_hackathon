@@ -1,0 +1,42 @@
+.footer{
+	
+    background:#000000;
+    display:grid;
+    padding:2em;
+
+}
+
+.footer ul{
+	float: right;
+	text-align: right;
+    color:white;
+}
+
+.footer ul li{
+    list-style-type: none;
+
+}
+
+.footer ul li a{
+	color:$light;
+	text-decoration: none;
+}
+
+.socialIcon{
+	width:3em;
+	height:3em;
+	float: left;
+    filter: grayscale(100%);
+}
+
+.socialIcon:hover{
+    filter:none;
+}
+
+.socialMedia{
+  align-self: center;
+  justify-self: center;
+  margin-bottom:2em;
+
+}
+

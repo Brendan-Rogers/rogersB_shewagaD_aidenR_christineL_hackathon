@@ -1,5 +1,8 @@
 @import '_vars';
 @import'_login';
+@import'_header';
+@import'_footer';
+
 // Start of Index Mobile
 
 .hidden {
@@ -16,13 +19,6 @@ body {
     background-color: $dark;
 }
 
-header {
-    width: 100%;
-    height: 65px;
-    background-color: $dark;
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 .pageTitle{
     margin: 0;

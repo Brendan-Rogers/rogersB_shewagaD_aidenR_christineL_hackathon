@@ -27,6 +27,9 @@
   	<script src="https://unpkg.com/vue"></script>
   	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 </head>
+   <header>
+		<img src="images/logo.svg" class="logo" alt="logo">
+ </header>
 <body>
 	<main class="container" id="app">
 
@@ -35,6 +38,22 @@
 		</div>
     
 	</main>
+	<footer class="footer">
+	  <ul id="footerLinks">
+	    <li><a href="">about</a></li>
+	    <li><a href="">contact</a></li>
+	    <li><a href="">copyright</a></li>
+	    <li><a href="">privacy</a></li>
+	    <li><a href="">terms</a></li>
+	  </ul>
+
+	  <div class="socialMedia">
+	    <a href="https://www.facebook.com/"><img src="images/facebookIcon.svg" alt="Facebook" class="socialIcon"></a>
+	    <a href="https://twitter.com/"><img src="images/twitterIcon.svg" alt="Twitter" class="socialIcon"></a>
+	    <a href="https://www.instagram.com/"><img src="images/instagramIcon.svg" alt="Instagram" class="socialIcon"></a>
+	    <a href="https://www.youtube.com/"><img src="images/youtubeIcon.svg" alt="youtube" class="socialIcon"></a>
+	  </div>
+	</footer>
 
 <script type="module" src="js/main.js"></script>
 </body>

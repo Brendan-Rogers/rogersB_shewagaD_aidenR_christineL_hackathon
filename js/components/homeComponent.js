@@ -1,9 +1,7 @@
 export default {
     template: `
     <div>
-	    <header>
-			<h1 class="pageTitle">Ontario Summer</h1>
-		</header>
+	
 
 		<router-link :to="{name: 'signup'}">
 		  <button id="btnSignup">Sign Up!</button>
