@@ -17,7 +17,7 @@ export default {
     		<input type="text" name="last-name" value="" required><br><br>
 
     		<label>Email:</label>
-    		<input type="text" name="email" value=""><br><br>
+    		<input type="text" name="email" value="" required><br><br>
 
     		<label for="country">Country</label>      
                <select id="country" name="country" class="form-control">
