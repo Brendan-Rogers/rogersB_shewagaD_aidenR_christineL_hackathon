@@ -7,15 +7,15 @@ export default {
 
 
 			<section class="landingArea">
-				<video src="videos/pureVolume_mobile.mp4" class="promoVid"></video>
+				<video src="videos/mainCoup.mp4" class="promoVid"></video>
 				<router-link :to="{name: 'signup'}"><button class="bookNow">Book your trip</button></router-link>
 
 				<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
 				
 				<div class="imgWrap">
-					<img src="images/drake.png" alt="placeholder" class="ontarioImg">
-					<img src="images/drake.png" alt="placeholder" class="ontarioImg">
-					<img src="images/drake.png" alt="placeholder" class="ontarioImg hidden">
+					<img src="images/top_image_1.png" alt="placeholder" class="ontarioImg">
+					<img src="images/top_image_2.png" alt="placeholder" class="ontarioImg">
+					<img src="images/top_image_3.png" alt="placeholder" class="ontarioImg hidden">
 				</div>
 
 				<div class="flex">
@@ -28,7 +28,7 @@ export default {
 			<section class="landmarks">
 				
 				<div class="landmark">
-					<img src="images/drake.png" alt="placeholder" class="landmarkImg">
+					<img src="images/main_1.png" alt="placeholder" class="landmarkImg">
 					<h3 class="landmarkTitle">Niagara Falls</h3>
 					<h4 class="landmarkSub">Natural Wonder of the World</h4>
 					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
@@ -36,7 +36,7 @@ export default {
 				</div>
 
 				<div class="landmark">
-					<img src="images/drake.png" alt="placeholder" class="landmarkImg">
+					<img src="images/main_2.png" alt="placeholder" class="landmarkImg">
 					<h3 class="landmarkTitle">Niagara Falls</h3>
 					<h4 class="landmarkSub">Natural Wonder of the World</h4>
 					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
@@ -51,21 +51,21 @@ export default {
 				<h4 class="lakes">The Great Lakes</h4>
 
 				<div class="activity">
-					<img src="images/drake.png" alt="placeholder" class="activityImg">
+					<img src="images/experience_1.png" alt="placeholder" class="activityImg">
 					<h3 class="activityTitle">Water Skiing</h3>
 					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
 					<a class="readMore">Read More</a>
 				</div>
 
 				<div class="activity">
-					<img src="images/drake.png" alt="placeholder" class="activityImg">
+					<img src="images/experience_2.png" alt="placeholder" class="activityImg">
 					<h3 class="activityTitle">Water Skiing</h3>
 					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
 					<a class="readMore">Read More</a>
 				</div>
 
 				<div class="activity">
-					<img src="images/drake.png" alt="placeholder" class="activityImg">
+					<img src="images/experience_3.png" alt="placeholder" class="activityImg">
 					<h3 class="activityTitle">Water Skiing</h3>
 					<p class="activityDesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam assumenda quae qui, nobis incidunt delectus consequuntur modi libero officia, esse cupiditate voluptatum a natus illum cum molestiae labore quam harum.</p>
 					<a class="readMore">Read More</a>
