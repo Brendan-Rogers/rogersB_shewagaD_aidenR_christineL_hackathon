@@ -3,22 +3,21 @@ export default {
     <div>
 	
 
-		<router-link :to="{name: 'signup'}">
-		  <button id="btnSignup">Sign Up!</button>
-		</router-link>
 
 			<section class="landingArea">
-				<video src="videos/pureVolume_mobile.mp4" controls></video>
-				<button class="bookNow">Book your trip</button>
+				<video src="videos/pureVolume_mobile.mp4" class="promoVid"></video>
+				<router-link :to="{name: 'signup'}"><button class="bookNow">Book your trip</button></router-link>
 
 				<h2 class="welcomeText">Welcome to the Ontario Summer</h2>
 
 				<img src="images/drake.png" alt="placeholder" class="ontarioImg">
 				<img src="images/drake.png" alt="placeholder" class="ontarioImg">
-				<img src="images/drake.png" alt="placeholder" class="ontarioImg">
+				<img src="images/drake.png" alt="placeholder" class="ontarioImg hidden">
 
-				<h4 class="explore">Explore Ontario</h4>
-				
+				<div class="flex">
+					<h4 class="explore">Explore Ontario</h4>
+				</div>
+
 				<p class="promoText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ex dolores hic quibusdam fugit libero quaerat tempora ipsum recusandae! Cum voluptates culpa odit hic voluptatibus autem iure natus vel fuga!Ipsum omnis esse quo distinctio laudantium in vel reprehenderit doloribus dicta dolore illo, beatae saepe temporibus quos. Nemo iure quaerat corporis exercitationem, deserunt magnam odio nam ratione quas velit laborum?</p>
 			</section>
 
@@ -26,18 +25,18 @@ export default {
 				
 				<div class="landmark">
 					<img src="images/drake.png" alt="placeholder" class="landmarkImg">
-					<h3 class="landmarkTitle">Niagra Falls</h3>
+					<h3 class="landmarkTitle">Niagara Falls</h3>
 					<h4 class="landmarkSub">Natural Wonder of the World</h4>
 					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-					<a class="explore">Explore Ontario</a>
+					<div class="flex"><a class="explore">Explore Ontario</a></div>
 				</div>
 
 				<div class="landmark">
 					<img src="images/drake.png" alt="placeholder" class="landmarkImg">
-					<h3 class="landmarkTitle">Niagra Falls</h3>
+					<h3 class="landmarkTitle">Niagara Falls</h3>
 					<h4 class="landmarkSub">Natural Wonder of the World</h4>
 					<p class="landmarkText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate id laborum, adipisci quibusdam nemo a voluptatum illum perspiciatis ipsam? Exercitationem repellendus consequuntur dicta sunt voluptates voluptas autem non consequatur quae?Minima blanditiis, ullam quae error laudantium facere illum ducimus aperiam laboriosam alias debitis ad explicabo, quos odit enim delectus, mollitia repudiandae officiis ex suscipit cum? Delectus accusantium quisquam voluptatibus cupiditate!</p>
-					<a class="explore">Explore Ontario</a>
+					<div class="flex"><a class="explore">Explore Ontario</a></div>
 				</div>
 
 			</section>
